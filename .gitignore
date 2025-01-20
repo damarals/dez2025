@@ -39,3 +39,4 @@ terraform.rc
 **/data/
 **/.venv
 **/keys/
+**/*repo-to-text*
