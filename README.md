@@ -4,44 +4,14 @@ This repository contains my solutions for the Data Engineering Zoomcamp 2025 coh
 
 ### Development Setup
 
-All modules follow a standardized development setup using:
+Almost all modules follow a standardized development setup using:
 - **VS Code with Dev Containers**: Ensuring consistent development environments
 - **Poetry**: Python dependency management
 - **Docker & Docker Compose**: Service containerization
 
-It's highly recommended to use VS Code with the Dev Containers extension for the best development experience.
+## Course Modules
 
-## Module 1: Docker & SQL
+- [Module 1: Docker & SQL](https://github.com/damarals/dez2025/tree/main/01-docker-terraform)
+- [Module 2: Workflow Orchestration](https://github.com/damarals/dez2025/tree/main/02-workflow-orchestration)
 
-### Project Structure
-
-```
-.
-├── .devcontainer/         # VS Code Dev Container configuration
-├── .docker/               # Docker-related scripts
-├── notebooks/             # Jupyter notebooks with solutions
-├── scripts/               # Python scripts for data ingestion
-├── terraform/             # Infrastructure as Code files
-├── docker-compose.yaml    # Services configuration
-├── Dockerfile             # Container image definition
-└── pyproject.toml         # Python project dependencies
-```
-
-### Environment Components
-
-- **PostgreSQL**: Main database for storing taxi trip data
-- **pgAdmin**: Web interface for database management
-- **Python Environment**: Using Poetry for dependency management
-
-### Technologies Used
-
-- **Docker & Docker Compose**: Containerization and service orchestration
-- **PostgreSQL**: Data storage and querying
-- **Python**: Data processing and ingestion
-- **Poetry**: Dependency management
-- **Terraform**: Infrastructure as Code
-- **Google Cloud Platform**: Cloud infrastructure
-
-## Module 2: Workflow Orchestration
-
-Coming soon...
+Each module folder contains detailed solutions for the corresponding week's content.
